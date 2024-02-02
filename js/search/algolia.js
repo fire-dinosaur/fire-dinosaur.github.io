@@ -160,6 +160,15 @@ window.addEventListener('load', () => {
   })
 
   search.addWidgets([configure, searchBox, hits, stats, powerBy, pagination]) // add the widgets to the instantsearch instance
+  search.addWidget(
+    instantsearch.widgets.searchBox({
+      container: '#algolia-search-input',
+      reset: false,
+      magnifier: false,
+      searchOnEnterKeyPressOnly: true,
+      placeholder: "输入关键词搜索文章，按下回车后耐心等待..."
+    })
+  )
 
   search.start()
 
