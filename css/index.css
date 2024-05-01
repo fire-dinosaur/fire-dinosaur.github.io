@@ -1469,7 +1469,7 @@ canvas:not(#ribbon-canvas),
   --white: #fff;
   --text-highlight-color: #1f2d3d;
   --blockquote-color: #6a737d;
-  --blockquote-bg: rgba(249,163,16,0.1);
+  --blockquote-bg: rgba(244,204,76,0.1);
   --reward-pop: #f5f5f5;
   --toc-link-color: #666261;
   --card-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.05);
@@ -1620,7 +1620,7 @@ img[data-lazy-src].error {
 blockquote {
   margin: 0 0 20px;
   padding: 12px 15px;
-  border-left: 3px solid #f9a310;
+  border-left: 3px solid #f4cc4c;
   background-color: var(--blockquote-bg);
   color: var(--blockquote-color);
 }
