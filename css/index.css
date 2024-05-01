@@ -3854,14 +3854,14 @@ h1.page-title + .tag-cloud-list {
   position: absolute;
   width: 600px;
   text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 #nav .menus_items .menus_item {
   position: relative;
   display: inline-block;
   padding: 0 0 0 14px;
-  left: 0;
-  right: 0;
-  margin: auto;
 }
 #nav .menus_items .menus_item:hover .menus_item_child {
   display: block;
